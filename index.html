@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,6 +10,13 @@
 <body>
     <canvas id="jsCanvas" class="canvas"></canvas>
     <div class="controls">
+        <div class="controls_range">
+            <input type="range" id="jsRange" min="0" max="5" value="2.5" step="0.1" />
+        </div>
+        <div class="controls_btns">
+            <button id="jsMode">Fill</button>
+            <button id="jsSave">Save</button>
+        </div>
         <div class="controls_colors" id="jsColors">
             <div class="controls_color" style="background-color: #2C2C2C;"></div>
             <div class="controls_color" style="background-color: white;"></div>
